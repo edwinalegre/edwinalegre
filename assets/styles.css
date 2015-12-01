@@ -1,0 +1,181 @@
+body {
+	background-color: #DDD;
+	font-family: 'Jura', sans-serif;
+	font-size: 13px;
+	margin: 0;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+header {
+	text-align: center;
+	background-color: #1B75BB;
+	color: white;
+	height: 80px;
+	border: 10px solid #1B75BB;
+}
+
+nav {
+	text-align: center;
+	margin: 0;
+}
+
+footer {
+	background-color: #999;
+	color: #FFF;
+	text-align: center;
+	border: 10px solid #999;
+}
+
+nav a {
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+h1 {
+	margin: 0;
+	font-size: 60px;
+	width: 100%;
+	font-style: italic;
+}
+
+h2 {
+	color: #1B75BB;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+h3 {
+	font-size: 20px;
+	border-bottom: 1px solid #1B75BB;
+	padding-bottom: 5px;
+}
+
+h4 {
+	font-size: 18px;
+	margin: 0 0 5px 0;
+	padding: 0;
+}
+
+h5 {
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+h6 {
+	font-size: 20px;
+	text-align: center;
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+article .main-content img {
+	margin: 0 0 0 5px;
+	padding: 0;
+	width: 150px;
+	float: right;
+	clear: both;
+}
+
+p {
+	line-height: 24px;
+}
+
+nav ul {
+	padding: 10px;
+	background-color: #999;
+	margin: 0;
+}
+
+nav li {
+	display: inline;
+	padding: 0px 10px 0px 10px;
+}
+
+article {
+	background-color: #FFF;
+	max-width: 780px;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+.location {
+	background-image: url('icons.gif');
+	background-position: 30px;
+	height: 15px;
+	width: 15px;
+	border: 0;
+}
+
+.phone {
+	background-image: url('icons.gif');
+	background-position: 0px;
+	height: 15px;
+	width: 15px;
+}
+
+.email {
+	background-image: url('icons.gif');
+	background-position: 15px;
+	height: 15px;
+	width: 15px;
+}
+.main-content {
+	overflow: auto;
+	zoom: 1;
+}
+
+a, .fa {
+	color: #1B75BB;
+}
+
+a:hover, .fa:hover {
+	color: #333;
+}
+
+.download {
+	text-align: right;
+}
+
+.portfolio h5:not(:first-child) {
+	margin-top: 35px;
+}
+
+@media (min-width: 600px) {
+	header {
+		border-radius: 7px 7px 0 0;
+		-moz-border-radius: 7px 7px 0 0;
+		-webkit-border-radius: 7px 7px 0 0;
+	}
+	footer {
+		border-radius: 0 0 7px 7px;
+		-moz-border-radius: 0 0 7px 7px;
+		-webkit-border-radius: 0 0 7px 7px;
+	}
+}
+
+@media (max-width: 600px) {
+	h1 {
+		font-size: 42px;
+	}
+
+	h2 {
+		margin: 0;
+	}
+	h6 {
+		font-size: 16px;
+	}
+	header {
+		height: 60px;
+	}
+	li {
+		display: block;
+		padding: 5px;
+	}
+	nav a {
+		font-size: 16px;
+	}
+}
